@@ -18,7 +18,17 @@
 }
 
 .header {
+    display: flex;
     
+}
+
+.header>* {
+    flex: 1;
+    display: flex;
+}
+
+.headerchildren {
+    justify-content: space-between;
 }
 
 #illustrationboxes{
